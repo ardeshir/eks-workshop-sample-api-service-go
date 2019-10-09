@@ -33,7 +33,7 @@ func main() {
 
 		io.WriteString(w, string(out))
 
-		fmt.Println("Hello world - the log message")
+		fmt.Println("fsdi-nonprod - kubernetes cluster log message")
 	})
 	http.ListenAndServe(":8080", nil)
 }
